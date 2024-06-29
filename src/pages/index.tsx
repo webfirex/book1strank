@@ -13,11 +13,11 @@ export default function Home() {
         <h1 className="text-red-700 text-center font-black text-4xl max-[600px]:text-xl max-[600px]:bg-yellow-300 max-[600px]:py-3 px-2">Join Our Telegram Channel & Win Crores</h1>
         <p className="text-red-700 text-center font-extrabold text-xl">आप <b>Telegran Channel</b> join कर लो 1st Rank आज ही जीता दूंगा ।</p>
         <video controls className="rounded-lg border w-full ">
-          <source src="hero-vid.mp4" type="video/mp4" />
+          <source src="win2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <Link className="w-full min-[600px]:max-w-[400px] flex justify-center items-center" href='https://t.me/+5g_UApTSafViYmU1'>
-          <img src="win2.webp" alt="button" className="w-full animate-scaleBtn" />
+          <img src="tgbtn.webp" alt="button" className="w-full animate-scaleBtn" />
         </Link>
         <p className="text-red-700 text-center font-extrabold text-xl"><b>OUR WINNERS 👇</b></p>
       </div>
