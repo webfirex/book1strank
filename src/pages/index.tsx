@@ -10,7 +10,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between p-6 ${inter.className}`}
     >
       <div className="flex flex-col justify-center items-center gap-6">
-        <h1 className="text-red-700 text-center font-black text-4xl max-[600px]:text-3xl max-[600px]:bg-yellow-300 max-[600px]:py-5">Join Our Telegram Channel & Win Crores</h1>
+        <h1 className="text-red-700 text-center font-black text-4xl max-[600px]:text-xl max-[600px]:bg-yellow-300 max-[600px]:py-3 px-2">Join Our Telegram Channel & Win Crores</h1>
         <p className="text-red-700 text-center font-extrabold text-xl">आप <b>Telegran Channel</b> join कर लो 1st Rank आज ही जीता दूंगा ।</p>
         <video controls className="rounded-lg border w-full ">
           <source src="hero-vid.mp4" type="video/mp4" />
@@ -19,6 +19,11 @@ export default function Home() {
         <Link className="w-full min-[600px]:max-w-[400px] flex justify-center items-center" href='https://t.me/+5g_UApTSafViYmU1'>
           <img src="tgbtn.webp" alt="button" className="w-full animate-scaleBtn" />
         </Link>
+        <p className="text-red-700 text-center font-extrabold text-xl"><b>OUR WINNERS 👇</b></p>
+        <video controls className="rounded-lg border w-full ">
+          <source src="winner.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </main>
   );
