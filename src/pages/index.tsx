@@ -19,7 +19,7 @@ export default function Home() {
         <Link className="w-full min-[600px]:max-w-[400px] flex justify-center items-center" href='https://t.me/+5g_UApTSafViYmU1'>
           <img src="tgbtn.webp" alt="button" className="w-full animate-scaleBtn" />
         </Link>
-        <p className="text-red-700 text-center font-extrabold text-xl"><b>OUR WINNERS 👇</b></p>
+        {/* <p className="text-red-700 text-center font-extrabold text-xl"><b>OUR WINNERS 👇</b></p> */}
       </div>
     </main>
   );
